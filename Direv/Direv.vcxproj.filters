@@ -1,0 +1,157 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Shader">
+      <UniqueIdentifier>{1d942008-9d06-4d22-95c5-f8cc51a2b14f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Ships">
+      <UniqueIdentifier>{8781daee-df87-49b0-83e0-1c658a890c17}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Ships">
+      <UniqueIdentifier>{49a6fb0d-1e49-4b53-9edc-5e97aa53d731}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Stuff">
+      <UniqueIdentifier>{baa47678-257e-459b-a471-e94be9181171}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Stuff">
+      <UniqueIdentifier>{2bccd173-9a86-4261-bfc5-2d9ab5ee62f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Important">
+      <UniqueIdentifier>{4fbc8975-b506-44b9-a087-978f0a835895}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Important">
+      <UniqueIdentifier>{0cad3226-8637-446b-89fa-f0d2da29ef04}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\RenderStuff">
+      <UniqueIdentifier>{09f7287e-e28e-41d2-b4e7-2fd891746bb9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\RenderStuff">
+      <UniqueIdentifier>{7c116a61-8456-4009-a2ed-a56c19990ac0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Lebigrand.cpp">
+      <Filter>Source Files\Ships</Filter>
+    </ClCompile>
+    <ClCompile Include="Cooge.cpp">
+      <Filter>Source Files\Ships</Filter>
+    </ClCompile>
+    <ClCompile Include="Ship.cpp">
+      <Filter>Source Files\Ships</Filter>
+    </ClCompile>
+    <ClCompile Include="Input.cpp">
+      <Filter>Source Files\Stuff</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Source Files\Stuff</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Source Files\Stuff</Filter>
+    </ClCompile>
+    <ClCompile Include="Source.cpp">
+      <Filter>Source Files\Important</Filter>
+    </ClCompile>
+    <ClCompile Include="Nosu.cpp">
+      <Filter>Source Files\Ships</Filter>
+    </ClCompile>
+    <ClCompile Include="Sky.cpp">
+      <Filter>Source Files\Stuff</Filter>
+    </ClCompile>
+    <ClCompile Include="ModelLoader.cpp">
+      <Filter>Source Files\RenderStuff</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderClass.cpp">
+      <Filter>Source Files\RenderStuff</Filter>
+    </ClCompile>
+    <ClCompile Include="Model.cpp">
+      <Filter>Source Files\Important</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture.cpp">
+      <Filter>Source Files\RenderStuff</Filter>
+    </ClCompile>
+    <ClCompile Include="Gravity.cpp">
+      <Filter>Source Files\Stuff</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Lebigrand.h">
+      <Filter>Header Files\Ships</Filter>
+    </ClInclude>
+    <ClInclude Include="Cooge.h">
+      <Filter>Header Files\Ships</Filter>
+    </ClInclude>
+    <ClInclude Include="Ship.h">
+      <Filter>Header Files\Ships</Filter>
+    </ClInclude>
+    <ClInclude Include="AllShips.h">
+      <Filter>Header Files\Ships</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Header Files\Stuff</Filter>
+    </ClInclude>
+    <ClInclude Include="Input.h">
+      <Filter>Header Files\Stuff</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Header Files\Stuff</Filter>
+    </ClInclude>
+    <ClInclude Include="Nosu.h">
+      <Filter>Header Files\Ships</Filter>
+    </ClInclude>
+    <ClInclude Include="Sky.h">
+      <Filter>Header Files\Stuff</Filter>
+    </ClInclude>
+    <ClInclude Include="ModelLoader.h">
+      <Filter>Header Files\RenderStuff</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderClass.h">
+      <Filter>Header Files\RenderStuff</Filter>
+    </ClInclude>
+    <ClInclude Include="Model.h">
+      <Filter>Header Files\Important</Filter>
+    </ClInclude>
+    <ClInclude Include="Include.h">
+      <Filter>Header Files\Important</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture.h">
+      <Filter>Header Files\RenderStuff</Filter>
+    </ClInclude>
+    <ClInclude Include="Gravity.h">
+      <Filter>Header Files\Stuff</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="shader.HLSL">
+      <Filter>Shader</Filter>
+    </FxCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Object Include="Source\Cloud1.obj">
+      <Filter>Resource Files</Filter>
+    </Object>
+    <Object Include="Source\Cloud2.obj">
+      <Filter>Resource Files</Filter>
+    </Object>
+    <Object Include="Source\Cooge.obj">
+      <Filter>Resource Files</Filter>
+    </Object>
+    <Object Include="Source\Lebigrand.obj">
+      <Filter>Resource Files</Filter>
+    </Object>
+    <Object Include="Source\Nosu.obj">
+      <Filter>Resource Files</Filter>
+    </Object>
+  </ItemGroup>
+</Project>

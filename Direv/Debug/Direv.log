@@ -1,0 +1,5 @@
+﻿  RenderClass.cpp
+c:\users\lukas\desktop\direv\direv\renderclass.cpp(163): warning C4316: 'Camera': object allocated on the heap may not be aligned 16
+c:\users\lukas\desktop\direv\direv\renderclass.cpp(166): warning C4316: 'Sky': object allocated on the heap may not be aligned 16
+  Direv.vcxproj -> C:\Users\lukas\Desktop\Direv\Debug\Direv.exe
+  Direv.vcxproj -> C:\Users\lukas\Desktop\Direv\Debug\Direv.pdb (Partial PDB)
